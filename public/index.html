@@ -13,7 +13,7 @@
         >
         <title>Document</title>
     </head>
-    <body class="selection:bg-red-600">
+    <body class="selection:bg-red-600 selection:text-white">
         <section class="bg-cover h-full" style="background-image: url(../src/image/bg.svg);">
             <header class="bg-white">
                 <nav class="h-12 mx-7  flex flex-col ">
@@ -49,28 +49,28 @@
                     <p class="text-[42px] tracking-normal leading-tight justify-start">WE ARE DIGITIZING  YOUR WORLD.</p>
                     <p class="tracking-wider py-3">As a key globally active IT service provider, we advise and assist you in all aspects of digitization and provide tailor-made technologies for agile, flexible and secure IT.</p>
                 </div>
-                <div class="flex gap-10 ">
-                    <div class="border-white border-[7px]  text-white flex flex-col justify-start items-start">
+                <div class="flex gap-12">
+                    <div class="border-white border-[7px] h-full  text-white flex flex-col justify-start items-start">
                         <img
-                            class="w-44"
+                            class="w-48 h-36 object-cover"
                             src="../src/image/img1.jpg"
                             alt=""
                             srcset=""
                         >
                         <p class="bg-red-700 py-2 px-4 w-full text-center">Portfolio</p>
                     </div>
-                    <div class="border-white border-[7px]  text-white flex flex-col justify-start items-start">
+                    <div class="border-white border-[7px] h-full  text-white flex flex-col justify-start items-start">
                         <img
-                            class="w-44"
+                            class="w-48 h-36 object-cover"
                             src="../src/image/img2.jpg"
                             alt=""
                             srcset=""
                         >
                         <p class="bg-red-700 py-2 px-4 w-full text-center">About Us</p>
                     </div>
-                    <div class="border-white border-[7px]  text-white flex flex-col justify-start items-start">
+                    <div class="border-white border-[7px] h-full text-white flex flex-col justify-start items-start">
                         <img
-                            class="w-44"
+                            class="w-48 h-36 object-cover"
                             src="../src/image/img3.jpg"
                             alt=""
                             srcset=""
@@ -81,7 +81,7 @@
             </section>
         </section>
         <section class="py-3 px-14">
-            <h2 class="text-center text-3xl py-4 text-gray-700 tracking-wider ">Learn more about our portfolio</h2>
+            <h2 class="text-center text-4xl font-normal py-4 text-gray-700 tracking-wider ">Learn more about our portfolio</h2>
             <div class="container py-6">
                 <div class="grid grid-cols-4 gap-10">
                     <div class="card flex flex-col bg-slate-200 relative ">
@@ -101,7 +101,9 @@
                         <button class="absolute z-10 bg-gray-200 text-gray-700 m-1 px-2 py-1 text-xs rounded-sm">Cyber Security Check</button>
                         <img src="../src/image/AS-404775145-Home-Portfolio-Manufacturing.png" alt="">
                         <div class="px-4 py-3 flex flex-col items-end justify-between h-full text-white">
-                            <p class=" text-red-600 tracking-wide py-1">Cyber Security</p>
+                            <p class=" text-red-600 tracking-wide py-1">
+                                Cyber Security
+                            </p>
                             <p class="text-gray-700 tracking-wide ">We analyze your application landscapes and transfer them step by step into a sustainable model.</p>
                             <div>&nbsp;</div>
                             <button class="flex justify-between items-center mt-2 px-4 py-2 bg-red-700">
@@ -193,8 +195,62 @@
                 <div class="h-2 w-2 bg-red-700"></div>
                 <div class="h-2 w-2 bg-red-700"></div>
             </div>
-            <div></div>
+            <div class="pt-16 pb-9 flex gap-8 text-sm font-thin text-red-700 px-14">
+                <p>
+                    print
+                    <i class="fa-solid fa-print"></i>
+                </p>
+                <p>
+                    recommend
+                    <i class="fa-solid fa-share-nodes"></i>
+                </p>
+            </div>
         </section>
-        ok
+        <footer class="bg-zinc-700 w-full flex flex-col text-white text-sm font-thin leading-6">
+            <div class="flex justify-between py-10 px-16">
+                <div class="flex gap-16">
+                    <div class="flex flex-col space-y-2">
+                        <h2 class="text-lg font-medium py-4">Portfolio</h2>
+                        <p>Focus Areas</p>
+                        <p>Competencies</p>
+                        <p>Technologies</p>
+                        <p>Industries</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <h2 class="text-lg font-medium py-4">About Us</h2>
+                        <p>Materna Group</p>
+                        <p>Management</p>
+                        <p>Locations</p>
+                        <p>Partners</p>
+                        <p>Sustainability and CSR</p>
+                        <p>Research and Development</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <h2 class="text-lg font-medium py-4">Customers</h2>
+                        <p>Customers</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <h2 class="text-lg font-medium py-4">Careers</h2>
+                        <p>Careers</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex flex-col w-44 space-y-2">
+                        <h2 class="text-lg font-medium py-4">Service</h2>
+                        <p>Materna Support</p>
+                        <p>Contact</p>
+                        <p>Imprint & Copyright</p>
+                        <p>Compliance at Materna</p>
+                        <p>Data privacy Statement</p>
+                        <p>Data Privacy Informations for Customers</p>
+                        <p>Data Privacy Information for suppliers</p>
+                        <p>Sitemap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-zinc-800 py-6 px-14">
+                <p class="font-normal text-base">&copy; Materna 2024</p>
+            </div>
+        </footer>
     </body>
 </html>
