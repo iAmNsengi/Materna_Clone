@@ -1136,6 +1136,11 @@ video {
      object-fit: fill;
 }
 
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1382,6 +1387,14 @@ video {
   line-height: 1.5rem;
 }
 
+.text-\[4px\] {
+  font-size: 4px;
+}
+
+.text-\[41px\] {
+  font-size: 41px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1424,6 +1437,54 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[2\] {
+  line-height: 2;
+}
+
+.leading-\[20\] {
+  line-height: 20;
+}
+
+.leading-\[20p\] {
+  line-height: 20p;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
+}
+
+.leading-\[0px\] {
+  line-height: 0px;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[40px\] {
+  line-height: 40px;
 }
 
 .tracking-normal {
